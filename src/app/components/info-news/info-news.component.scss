@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding-top: 120%;
+  top: 460px;
 }
 
 .card__container-principal {
@@ -161,8 +161,10 @@
   .card__container {
     position: relative;
     flex-direction: row;
-    padding-top: 0;
+    width: 100%;
     display: flex;
+    align-items: center;
+  justify-content: center;
     .card__container-principal {
       position: relative;
       width: 70%;
@@ -173,3 +175,26 @@
     }
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .card__container {
+    position: relative;
+    flex-direction: row;
+    width: 970px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .card__container-principal {
+      position: relative;
+      width: 70%;
+    }
+    .card__container-segundario {
+      position: relative;
+      width: 30%;
+    }
+  }
+}
+
+
+
+
