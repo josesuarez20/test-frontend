@@ -1,0 +1,202 @@
+
+.img-principal{
+    
+    width: 38.875rem;
+    height: 21.911rem;
+    
+}
+
+.card__enlace-pincipal{
+    width: 33.4rem;
+    height: 5.2rem;
+         font-size: 1.8rem;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.card__titulo-principal{
+    height: 127px;
+    width: 100%;
+         border-radius: 0px;
+    background: linear-gradient(180deg, rgba(0, 46, 71, 0) 0%, #002E47 54.39%, #00111A 71.65%);
+    opacity: 0.8;
+}
+
+.card__score{
+    height: 68.26239013671875px;
+    width: 100%;
+       border-radius: 0px;
+    background-color: #610F27;
+}
+
+.card__logo{
+    height: 38px;
+    width: 122px;
+         border-radius: 0px;
+}
+
+.card__pais-principal{
+    height: 2.6rem;
+    width: 2.6rem;
+    ;
+        border-radius: 0px;
+
+}
+
+.button__principal{
+    width: 9.1rem;
+    height: 2.4rem;
+    
+    
+    background-color: #ffffff;
+    border-radius: 1.5rem;
+    border: 0.1rem solid #ffffff;
+}
+
+.button__texto-principal{
+    
+        color: #00A7FF;
+    font-size: 1.2rem;
+    font-weight: semi-bold;
+}
+
+.button__principal::before{
+    content: '';
+    display: block;
+    height: 1rem;
+    width: 1rem;
+    
+        background-color: #19B0FF;
+    border-radius: 1rem;
+  }
+
+
+
+.card__pais-secundario{
+    
+    height: 2.6rem;
+    width: 2.6rem;
+            border-radius: 0px;
+
+}
+
+.card__text-principal{
+    
+    font-size: 3rem;
+            color: #ffffff;
+
+}
+.card__text-secundario{
+    
+    font-size: 3rem;
+    ;
+        color: #ffffff;
+
+}
+.card__text-guion{
+    font-size: 3rem;
+    ;
+        color: #ffffff;
+
+}
+
+
+.img-{
+    width: 38.875rem;
+    height: 21.911rem;
+    
+}
+
+.card__titulo{
+    
+    height: 135px;
+    width: 100%;
+         border-radius: 0px;
+    background: linear-gradient(180deg, rgba(0, 46, 71, 0) 0%, #002E47 54.39%, #00111A 71.65%);
+    opacity: 0.8;
+    
+}
+
+.card__enlace{
+    height: 53px;
+       
+      font-size: 1.6rem;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.button__secundario{
+    width: 14rem;
+    height: 2.4rem;
+    
+      background-color: #ffffff;
+    border-radius: 1.5rem;
+    border: 0.1rem solid #ffffff;
+}
+
+.button__texto-secundario{
+    
+        color: #00A7FF;
+    font-size: 1.2rem;
+    font-weight: semi-bold;
+
+}
+
+
+
+.img-secundario{
+    width: 38.875rem;
+    height: 21.911rem;
+}
+
+.card__titulo-secundario{
+    height: 14.2rem;
+    width: 100%;
+         border-radius: 0px;
+    background: linear-gradient(180deg, rgba(0, 46, 71, 0) 0%, #002E47 54.39%, #00111A 71.65%);
+    opacity: 0.8;
+    
+}
+
+.card__enlace-secundario{
+    height: 5.3rem;
+    
+    
+      font-size: 1.6rem;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.button__{
+    width: 14rem;
+    height: 2.4rem;
+    
+      background-color: #ffffff;
+    border-radius: 1.5rem;
+    border: 0.1rem solid #ffffff;
+}
+
+.button__texto{
+    
+        color: #00A7FF;
+    font-size: 1.2rem;
+    font-weight: semi-bold;
+
+}
+
+.card{
+    
+}
+
+@media screen and (min-width : 480px){
+
+    .cards__container{
+    
+        display: flex ;
+
+    }
+
+
+
+}
+

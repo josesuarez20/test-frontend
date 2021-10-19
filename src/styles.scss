@@ -1,0 +1,136 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* You can add global styles to this file, and also import other style files */
+
+
+/*
+@media screen and (min-width : 360px){
+
+}
+
+@media screen and (min-width : 734px){
+
+}
+
+@media screen and (min-width : 1024px){
+
+}
+
+*/
+
+/* base CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+:root {
+    /* Color */
+    --text-color : #000000;
+    --body-bg : #ffffff;
+}
+
+body{
+    color : var(--text-color);
+    font-family: var(--body-font);
+    background-color: var(--body-bg);
+    overflow-x: hidden;
+}
+
+button{
+    all: unset;
+    cursor: pointer;
+}
+
+/* Typography */
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: 'light';
+    font-weight: 300;
+    font-display: auto;
+    src: url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap);
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: 'regular';
+    font-weight: 400;
+    font-display: auto;
+    src: url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap);
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: 'medium';
+    font-weight: 500;
+    font-display: auto;
+    src: url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap);
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: 'semi-bold';
+    font-weight: 600;
+    font-display: auto;
+    src: url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap);
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: 'bolt';
+    font-weight: 700;
+    font-display: auto;
+    src: url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap);
+}
+
+:root{
+
+    /* Family */
+    --body-font : 'Open Sans', sans-serif;
+    --display-font : 'Open Sans', sans-serif;
+
+
+    /* Body size */
+    --smaller-body-size : 0.75rem;
+    --big-body-size : 0.875rem;
+    --bigger-body-size : 1rem;
+
+    /* Title font size */
+    --smaller-title-size : 0.875rem;
+    --normal-title-size : 0.875rem;
+    --big-title-size : 1rem;
+    --bigger-title-size : 1.125rem;
+
+    /* Weight*/
+    --normal-font : 400;
+    --medium-font : 600;
+    --bold-font : 700;
+
+    /* Line height*/
+    --title-line-height : 1.188;
+}
+
+@media screen and (min-width : 1024px){
+    :root{
+        /* Body size */
+        --smaller-body-size : 0.75rem; 
+        --normal-body-size : 0.875rem;
+        --big-body-size : 1rem;
+
+
+        /* Title font size */
+        --smaller-title-size : 0.688rem;
+        --normal-title-size : 0.875rem;
+        --big-title-size : 1rem;
+        --bigger-title-size : 1.375rem;
+    }
+
+}
+
+
+
