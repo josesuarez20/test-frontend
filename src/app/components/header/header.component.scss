@@ -1,107 +1,161 @@
-.menu_toggle{
-    display: none;
-    font-size: 11px;
-    padding: 16px 10px;
+.menu_toggle {
+  display: none;
+  font-size: 11px;
+  padding: 16px 10px;
 }
-.menu_toggle a{
-    text-decoration: none;
-    color: #fff;
+.menu_toggle a {
+  text-decoration: none;
+  color: #fff;
 }
-
 
 .header_container {
-    box-sizing: border-box;
-    padding: 15px;
-    display: flex;
+  box-sizing: border-box;
+  padding: 15px;
+  display: flex;
 }
 
-.categorias nav ul, .secciones .secciones_deportivas ul{
-    display: flex;
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-    color: #fff;
+.categorias nav ul,
+.secciones .secciones_deportivas ul {
+  display: flex;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  color: #fff;
 }
-.categorias nav ul{
-    text-transform: uppercase;
-    font-size: 11px;
+.categorias nav ul {
+  text-transform: uppercase;
+  font-size: 11px;
 }
-.categorias nav ul li{
-    padding: 10px 10px 10px 0px;
+.categorias nav ul li {
+  padding: 10px 10px 10px 0px;
 }
-.secciones_deportivas ul{
-    font-size: 12px;
+.secciones_deportivas ul {
+  font-size: 12px;
 }
-.secciones_deportivas ul li{
-    padding: 0px 10px 10px 0px;
-    font-weight: bold;
+.secciones_deportivas ul li {
+  padding: 0px 10px 10px 0px;
+  font-weight: bold;
 }
 
 // desktop
 @media (min-width: 1025px) {
-    .header_container {
-        height: 90px;
-        width: 970px;
-        background: #00a7ff;
-    }
-    .logo a img{
-        width: 65px;
-        height: 50px;
-        box-sizing: border-box;
-        padding-right: 15px;
-    }
+  .header_container {
+    height: 90px;
+    width: 970px;
+    background: #00a7ff;
+  }
+  .logo a img {
+    width: 65px;
+    height: 50px;
+    box-sizing: border-box;
+    padding-right: 15px;
+  }
+  .redes_sociales{
+    display: table-cell;
+    width: 66px;
+    vertical-align: bottom;
+    left: 9%;
+    position: relative;
+  }
+
+  .fb{
+      position: relative;
+      display: flex;
+      width: 40px;
+      margin-top: 40%;
+  }
+  .tw{
+    position: relative;
+    display: flex;
+    width: 40px;
+    margin-top: 40%;
+}
+  ul{
+      display: flex;
+      list-style: none;
+  }
+
+
+
 }
 
 // tablets
 @media (min-width: 600px) and (max-width: 1024px) {
-    .menu_toggle{
-        display: block;
-    }
-    .header_container {
-        height: 60px;
-        padding: 5px;
-        width: 100%;
-        background: #00a7ff;
-    }
-    .secciones{
-        display: none;
-    }
-    .logo a img{
-        padding-top: 10px;
-    }
-    .menu{
-        padding-top: 10px;
-        padding-left: 10px;
-        overflow-x: scroll;
-    }
-    .menu::-webkit-scrollbar{
-        display: none;
-    }
+  .menu_toggle {
+    display: block;
+  }
+  .header_container {
+    height: 60px;
+    padding: 5px;
+    width: 100%;
+    background: #00a7ff;
+  }
+  .secciones {
+    display: none;
+  }
+  .logo a img {
+    padding-top: 10px;
+  }
+  .menu {
+    padding-top: 10px;
+    padding-left: 10px;
+    overflow-x: scroll;
+  }
+  .menu::-webkit-scrollbar {
+    display: none;
+  }
+  .redes_sociales{
+    display: table-cell;
+    width: 66px;
+    vertical-align: bottom;
+    left: 45%;
+    position: relative;
+  }
+
+  .fb{
+      position: relative;
+      display: flex;
+      width: 40px;
+      margin-top: 40%;
+  }
+  .tw{
+    position: relative;
+    display: flex;
+    width: 40px;
+    margin-top: 40%;
+}
+  ul{
+      display: flex;
+      list-style: none;
+  }
 }
 
 // mobile
 @media (max-width: 599px) {
-    .menu_toggle{
-        display: block;
-    }
-    .header_container {
-        height: 60px;
-        padding: 5px;
-        width: 100%;
-        background: #00a7ff;
-    }
-    .secciones{
-        display: none;
-    }
-    .logo a img{
-        padding-top: 10px;
-    }
-    .menu{
-        padding-top: 10px;
-        padding-left: 10px;
-        overflow-x: scroll;
-    }
-    .menu::-webkit-scrollbar{
-        display: none;
-    }
+  .menu_toggle {
+    display: block;
+  }
+  .header_container {
+    height: 60px;
+    padding: 5px;
+    width: 100%;
+    background: #00a7ff;
+  }
+  .secciones {
+    display: none;
+  }
+  .logo a img {
+    padding-top: 10px;
+  }
+  .menu {
+    padding-top: 10px;
+    padding-left: 10px;
+    overflow-x: scroll;
+  }
+  .menu::-webkit-scrollbar {
+    display: none;
+  }
+  .redes_sociales{
+      display: none;
+  }
 }

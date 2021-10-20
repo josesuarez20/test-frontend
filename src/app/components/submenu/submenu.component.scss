@@ -1,36 +1,237 @@
-.submenu{
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    padding: 15px 15px;
-    background-color: #610F27;
-  }
+.submenu {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 15px 15px;
+}
+
+.submenu__container {
+  display: flex;
+}
 
 // desktop
 @media (min-width: 1025px) {
+  .submenu {
+    display: flex;
+    height: 105px;
+    width: 970px;
+  }
 
-    .submenu{
-        display: flex;
-        height: 105px;
-        width: 970px;
-    }
-    
+  .sub__menu-button {
+    position: relative;
+    display: flex;
+    list-style: none;
   }
-  
-  // tablets
-  @media (min-width: 600px) and (max-width: 1024px) {
-    .submenu{
-        width: 100%;
-        height: 105px;
-      }
-   
+
+  li {
+    display: flex;
+    border: 5px solid #ffffff;
   }
-  
-  // mobile
-  @media (max-width: 599px) {
-    .submenu{
-        display: none;
-      }
-  
-    
+
+  ul {
+    display: flex;
   }
+
+  a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 3px;
+    font-weight: 700;
+    padding: 0px 10px;
+  }
+
+  .icon {
+    position: relative;
+    display: flex;
+    font-size: 14px;
+    padding: 10px 6px;
+  }
+
+  .submenu__container-scroll {
+    position: relative;
+    display: flex;
+    width: 545px;
+    height: 17px;
+    margin-top: 0.5%;
+  }
+
+  .submenu__cnt {
+    display: flex;
+    padding-left: 5%;
+  }
+  .button-tab2 {
+    position: absolute;
+    margin-top: 1%;
+  }
+  .button-tab2::before,
+  .button-tab2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 1.5px;
+    width: 1rem;
+    background-color: #002e47;
+  }
+
+  .button-tab2::before {
+    left: 45%;
+    top: 0.81rem;
+    transform: rotate(40deg);
+    border-radius: 1rem;
+  }
+
+  .button-tab2::after {
+    left: 46%;
+    top: 1.4rem;
+    transform: rotate(-45deg);
+    border-radius: 1rem;
+  }
+
+  .button-tab {
+    position: absolute;
+    margin-top: 1%;
+  }
+  .button-tab::before,
+  .button-tab::after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 1.5px;
+    width: 1rem;
+    background-color: #002e47;
+  }
+
+  .button-tab::before {
+    left: 45%;
+    top: 0.81rem;
+    transform: rotate(-45deg);
+    border-radius: 1rem;
+  }
+
+  .button-tab::after {
+    left: 46%;
+    top: 1.4rem;
+    transform: rotate(40deg);
+    border-radius: 1rem;
+  }
+}
+
+// tablets
+@media (min-width: 600px) and (max-width: 1024px) {
+  .submenu {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    flex-direction: row;
+
+    justify-content: flex-end;
+    padding: 15px 15px;
+  }
+
+  .submenu__container,
+  .submenu__container-scroll,
+  .submenu__cnt {
+    display: flex;
+  }
+
+  .sub__menu-button {
+    position: relative;
+    display: flex;
+    list-style: none;
+  }
+  li {
+    display: flex;
+    border: 5px solid #ffffff;
+  }
+
+  ul {
+    display: flex;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 3px;
+    font-weight: 700;
+    padding: 0px 10px;
+  }
+
+  .icon {
+    position: relative;
+    display: flex;
+    font-size: 14px;
+    padding: 10px 6px;
+  }
+  .nombre {
+    display: flex;
+  }
+
+  .button-tab2 {
+    position: relative;
+    margin-top: 1%;
+  }
+  .button-tab2::before,
+  .button-tab2::after {
+    content: "";
+    position: relative;
+    display: flex;
+    height: 1.5px;
+    width: 1rem;
+    background-color: #002e47;
+  }
+
+  .button-tab2::before {
+    left: 45%;
+    top: 0.81rem;
+    transform: rotate(40deg);
+    border-radius: 1rem;
+  }
+
+  .button-tab2::after {
+    left: 46%;
+    top: 1.4rem;
+    transform: rotate(-45deg);
+    border-radius: 1rem;
+  }
+
+  .button-tab {
+    position: relative;
+    margin-top: 1%;
+  }
+  .button-tab::before,
+  .button-tab::after {
+    content: "";
+    position: relative;
+    display: flex;
+    height: 1.5px;
+    width: 1rem;
+    background-color: #002e47;
+  }
+
+  .button-tab::before {
+    left: 45%;
+    top: 0.81rem;
+    transform: rotate(-45deg);
+    border-radius: 1rem;
+  }
+
+  .button-tab::after {
+    left: 46%;
+    top: 1.4rem;
+    transform: rotate(40deg);
+    border-radius: 1rem;
+  }
+}
+
+// mobile
+@media (max-width: 599px) {
+  .submenu {
+    display: none;
+  }
+}
