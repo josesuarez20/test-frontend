@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { TableApuestaComponent } from './table-apuesta/table-apuesta.component';
 import { InfoNewsComponent } from './info-news/info-news.component';
+import { SubmenuComponent } from './submenu/submenu.component';
 
 
 
@@ -10,7 +11,8 @@ import { InfoNewsComponent } from './info-news/info-news.component';
   declarations: [
     HeaderComponent,
     TableApuestaComponent,
-    InfoNewsComponent
+    InfoNewsComponent,
+    SubmenuComponent
   ],
   imports: [
     CommonModule
@@ -18,7 +20,8 @@ import { InfoNewsComponent } from './info-news/info-news.component';
   exports: [
     HeaderComponent,
     TableApuestaComponent,
-    InfoNewsComponent
+    InfoNewsComponent,
+    SubmenuComponent
   ] 
 })
 export class ComponentsModule { }

@@ -1,65 +1,88 @@
 <div class="portada_grid">
     <div class="container_left">
-        <div class="info_item">
-            <article>
-                <div class="info_article">
-                    <div class="info_img">
-                        <img src="assets/img/futbol-mundial-melgar-vs-nacional-potosi-vivo-online-copa-sudamericana-2020-ver-directv-sports-n399166-625x352-904882 1.png" alt="">
-                        <div class="metadata">
-                            <div class="info_tipo">
-                                <span>icono</span>
-                                <h3>EN VIVO >></h3>
-                            </div>
-                            <h1>Sheriff de Gustavo Dulanto cayó 3-1 ante Inter pero sigue líder en Champions League</h1>
-                            <div class="score">
-
-                            </div>
-                        </div>
-                    </div>
-
+      <div class="info_item">
+        <article>
+          <div class="info_article">
+            <div class="info_img">
+              <img
+                src="assets/img/futbol-mundial-melgar-vs-nacional-potosi-vivo-online-copa-sudamericana-2020-ver-directv-sports-n399166-625x352-904882 1.png"
+                alt=""
+              />
+              <div class="metadata">
+                <div class="info_tipo">
+                  <ng-container *ngIf="principal.live">
+                    <h3>EN VIVO >></h3>
+                  </ng-container>
                 </div>
-            </article>
-        </div>
+                <h1>{{ principal.title }}</h1>
+                <div class="score">
+                  <div class="intro"><img src="/assets/img/image 3.png" alt="" class="card__logo" /></div>
+                  <div class="equipos">
+                    <div class="equipo_item">
+                      <img
+                        [src]="principal.encuentro.local.logo"
+                        class="equipo_flag"
+                      />
+                      <span class="equipo_goals">{{
+                        principal.encuentro.local.goles
+                      }}</span>
+                    </div>
+                    <div class="equipo_vs">
+                        <span></span>
+                    </div>
+                    <div class="equipo_item">
+                      <img [src]="principal.encuentro.visitante.logo" />
+                      <span class="equipo_goals">{{
+                        principal.encuentro.visitante.goles
+                      }}</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
     </div>
     <div class="container_right">
-        <div class="info_item">
-            <article>
-                <div class="info_article">
-                    <div class="info_img">
-                        <img src="assets/img/futbol-mundial-christian-cueva-pachuca-lo-registro-como-refuerzo-liga-mx-n399180-625x352-904930 1.png" alt="">
-                        <div class="metadata">
-                            <div class="info_tipo">
-                                <span>icono</span>
-                                <h3>FUTBOL MUNDIAL >></h3>
-                            </div>
-                            <h1>Sheriff de Gustavo Dulanto cayó 3-1 ante Inter pero sigue líder en Champions League</h1>
-                            <div class="score">
-          
-                            </div>
-                        </div>
-                    </div>
-
+      <div class="info_item">
+        <article>
+          <div class="info_article">
+            <div class="info_img">
+              <img
+                src="assets/img/futbol-mundial-christian-cueva-pachuca-lo-registro-como-refuerzo-liga-mx-n399180-625x352-904930 1.png"
+                alt=""
+              />
+              <div class="metadata">
+                <div class="info_tipo">
+                  <h3>FUTBOL MUNDIAL >></h3>
                 </div>
-            </article>
-        </div>
-        <div class="info_item">
-            <article>
-                <div class="info_article">
-                    <div class="info_img">
-                        <img src="assets/img/futbol-mundial-binacional-debuto-triunfo-liga-1-vencio-2-0-cusco-fc-n399181-625x352-904933 1.png" alt="">
-                        <div class="metadata">
-                            <div class="info_tipo">
-                                <span>icono</span>
-                                <h3>FUTBOL MUNDIAL >></h3>
-                            </div>
-                            <h1>Sheriff de Gustavo Dulanto cayó 3-1 ante Inter pero sigue líder en Champions League</h1>
-                            <div class="score">
-                            </div>
-                        </div>
-                    </div>
-
+                <h1>Perú vs. Nueva Zelanda: este es el análisis del juego de los ´kiwis´</h1>
+                <div class="score"></div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="info_item">
+        <article>
+          <div class="info_article">
+            <div class="info_img">
+              <img
+                src="assets/img/futbol-mundial-binacional-debuto-triunfo-liga-1-vencio-2-0-cusco-fc-n399181-625x352-904933 1.png"
+                alt=""
+              />
+              <div class="metadata">
+                <div class="info_tipo">
+                  <h3>FUTBOL MUNDIAL >></h3>
                 </div>
-            </article>
-        </div>
+                <h1>Perú vs. Nueva Zelanda: este es el análisis del juego de los ´kiwis´</h1>
+                <div class="score"></div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
     </div>
-</div>
+  </div>
+  

@@ -1,0 +1,36 @@
+.submenu{
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 15px 15px;
+    background-color: #610F27;
+  }
+
+// desktop
+@media (min-width: 1025px) {
+
+    .submenu{
+        display: flex;
+        height: 105px;
+        width: 970px;
+    }
+    
+  }
+  
+  // tablets
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .submenu{
+        width: 100%;
+        height: 105px;
+      }
+   
+  }
+  
+  // mobile
+  @media (max-width: 599px) {
+    .submenu{
+        display: none;
+      }
+  
+    
+  }
