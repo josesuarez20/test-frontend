@@ -1,0 +1,10 @@
+.body_container {
+    margin: auto;
+  }
+  
+  @media (min-width: 1025px) {
+    .body_container {
+      width: fit-content;
+    }
+  }
+  
